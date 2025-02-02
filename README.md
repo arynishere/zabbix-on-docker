@@ -40,7 +40,7 @@ Modify `inventory.yml` and set the target server details:
 all:
   hosts:
     target-server:
-      ansible_host: 192.168.56.10
+      ansible_host: 192.168.1.1
       ansible_user: ubuntu
       ansible_ssh_private_key_file: ~/.ssh/id_rsa
 ```
