@@ -14,7 +14,7 @@ This Ansible playbook automates the installation of **Docker** and **Zabbix Serv
 
 ## 📂 Project Structure
 ```
-ansible-docker-zabbix/
+zabbix-on-docker/
 ├── inventory.yml           # Inventory file
 ├── playbook.yml            # Main Ansible playbook
 ├── roles/
