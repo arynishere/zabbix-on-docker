@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+#  vars:
+#    docker_user: vagrant
+  roles:
+    - docker-install
+    - zabbix-server
+
